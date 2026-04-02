@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trang cá nhân</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f0f8ff;
+}
+
+/* Banner */
+.banner{
+    background:#ff69b4;
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* 3 cột */
+.section-title{
+    display:flex;
+    text-align:center;
+    background:#ffe4e1;
+}
+
+.section-title div{
+    flex:1;
+    padding:15px;
+    border:1px solid #ccc;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.section-title div:hover{
+    background:#ffb6c1;
+}
+
+/* Nội dung chính */
+.content{
+    display:flex;
+}
+
+/* Bên trái */
+.left{
+    flex:1;
+    padding:20px;
+    border:1px solid #ccc;
+    line-height:1.8;
+}
+
+/* Bên phải */
+.right{
+    flex:1;
+    padding:20px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+.right img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.right img:hover{
+    transform:scale(1.05);
+}
+
+/* Hàng ảnh */
+.gallery{
+    display:flex;
+}
+
+.gallery div{
+    flex:1;
+    border:1px solid #ccc;
+    text-align:center;
+    padding:20px;
+}
+
+.gallery img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.1);
+}
+
+/* Liên hệ */
+.contact{
+    border-top:2px solid #ccc;
+    padding:20px;
+    text-align:center;
+    background:#ffe4e1;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Banner -->
+<div class="banner">
+🌸 Thanh Trúc cutephomaique 🌸
+</div>
+
+<!-- 3 tiêu đề -->
+<div class="section-title">
+<div>📚 Học hỏi</div>
+<div>⚡ Năng động</div>
+<div>🎨 Sáng tạo</div>
+</div>
+
+<!-- Nội dung -->
+<div class="content">
+
+<div class="left">
+<p><b>Họ và tên:</b> Trần Lê Thanh Trúc</p>
+<p><b>Ngày sinh:</b> 21/11/2008</p>
+<p><b>Sở thích:</b> Thích đọc truyện, chụp ảnh, nghe nhạc</p>
+</div>
+
+<div class="right">
+<p>Ảnh đại diện</p>
+<img src="anh1.jpg">
+</div>
+
+</div>
+
+<!-- 3 ảnh -->
+<div class="gallery">
+
+<div>
+<p>Ảnh</p>
+<img src="anh2.jpg">
+</div>
+
+<div>
+<p>Ảnh</p>
+<img src="anh3.jpg">
+</div>
+
+<div>
+<p>Ảnh</p>
+<img src="anh4.jpg">
+</div>
+
+</div>
+
+<!-- Liên hệ -->
+<div class="contact">
+📧 Thông tin liên hệ:tranlethanhtrucmp@gmail.com
+</div>
+
+</body>
+</html>
